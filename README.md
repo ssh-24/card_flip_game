@@ -7,6 +7,5 @@
   - 그 노드는 DOM 트리 내에서 그 부모의 모든 자식들로 대체됩니다.
 
 - setCards 메서드 - 랜덤한 카드리스트를 리턴
-- setGame 메서드를 완성해보세요.
 - scores와 total이 같을 때는 'win'을 리턴
 - limit과 moves를 비교해서 'defeat'을 리턴
