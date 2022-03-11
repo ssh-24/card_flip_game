@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>같은 그림 맞추기 게임</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <ol class="board"></ol>
+      <div class="utility">
+        <div class="boxes">
+          <div class="box_scores">
+            <span class="label_scores">점수: </span>
+            <span class="scores">0</span>
+          </div>
+          <div class="box_moves">
+            <span class="label_moves">횟수: </span>
+            <span class="moves">0</span>
+          </div>
+          <div class="box_limit">
+            <span class="label_limit">제한: </span>
+            <span class="limit">0</span>
+          </div>
+        </div>
+        <button type="button" class="js-play">게임 시작</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
